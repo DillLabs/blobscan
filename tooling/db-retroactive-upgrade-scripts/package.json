@@ -1,0 +1,29 @@
+{
+  "name": "@blobscan/db-retroactive-upgrade-scripts",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .turbo node_modules",
+    "lint": "eslint .",
+    "lint:fix": "pnpm lint --fix",
+    "type-check": "tsc --noEmit",
+    "with-env:test": "dotenv -e ../../.env.test --",
+    "with-env": "dotenv -e ../../.env --",
+    "test": "pnpm with-env:test vitest",
+    "test:ui": "pnpm with-env:test vitest --ui",
+    "calldata-fix": "pnpm with-env ts-node scripts/blob-gas-as-calldata-recalculations.ts"
+  },
+  "dependencies": {
+    "@blobscan/blob-storage-manager": "^0.0.6",
+    "@blobscan/db": "^0.3.0",
+    "@blobscan/logger": "^0.0.5",
+    "@blobscan/zod": "^0.0.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@blobscan/eslint-config/base"
+    ]
+  }
+}

@@ -599,6 +599,21 @@ importers:
         specifier: ^3.21.4
         version: 3.21.4
 
+  tooling/db-retroactive-upgrade-scripts:
+    dependencies:
+      '@blobscan/blob-storage-manager':
+        specifier: ^0.0.6
+        version: link:../../packages/blob-storage-manager
+      '@blobscan/db':
+        specifier: ^0.3.0
+        version: link:../../packages/db
+      '@blobscan/logger':
+        specifier: ^0.0.5
+        version: link:../../packages/logger
+      '@blobscan/zod':
+        specifier: ^0.0.4
+        version: link:../../packages/zod
+
   tooling/eslint:
     dependencies:
       '@next/eslint-plugin-next':
