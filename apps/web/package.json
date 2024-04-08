@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@blobscan/api": "^0.8.0",
+    "@blobscan/blob-decoder": "^0.0.1",
     "@blobscan/dayjs": "^0.0.2",
     "@blobscan/open-telemetry": "^0.0.6",
     "@fontsource/inter": "^4.5.15",
