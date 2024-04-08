@@ -13,7 +13,6 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.cjs",
-    "**/*.mjs",
     ".next/types/**/*.ts",
     "src/declarations.d.ts",
     "sentry.client.config.ts",
