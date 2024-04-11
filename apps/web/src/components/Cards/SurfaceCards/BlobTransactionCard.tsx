@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import type { FC } from "react";
 import { ArrowRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
-import { animated, useSpring } from "@react-spring/web";
 
 import "react-loading-skeleton/dist/skeleton.css";
 import Skeleton from "react-loading-skeleton";
