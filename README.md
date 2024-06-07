@@ -1,10 +1,6 @@
-# Blobscan <a href="#"><img align="right" src=".github/assets/logo.svg" height="80px" /></a>
+# Dillscan <a href="#"><img align="right" src=".github/assets/logo.svg" height="80px" /></a>
 
 [![codecov](https://codecov.io/gh/Blobscan/blobscan/graph/badge.svg?token=KIPV5TH011)](https://codecov.io/gh/Blobscan/blobscan)
-
-Blobscan is the first blockchain explorer that helps to navigate and visualize shard blob transactions ([EIP-4844](https://www.eip4844.com)), providing the necessary infrastructure to scale Ethereum.
-
-To learn more about Blobscan, please check out our [documentation website](https://docs.blobscan.com).
 
 # Features
 
