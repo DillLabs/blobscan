@@ -52,5 +52,6 @@ export const getAllValidators = publicProcedure
     .output(outputSchema)
     .query(async () => {
         const data = await getAllValidatorQuery();
-        return { data:data };
+        //return { data:data };
+        return { data: data.slice(0, 256) };
     });
